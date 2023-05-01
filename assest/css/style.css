@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container header .navbar .container-fluid button {
+    background-color: rgb(247, 103, 51);
+    color: white;
+}
+
+.container header .navbar .container-fluid .collapse .btn {
+    background-color: orangered;
+    color: white;
+}
+
+.container .section-1 .col-md-12 .row .col-md-5 h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+.container .section-1 .col-md-12 .row .col-md-5 h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+/* .container .section-1 .col-md-12 .row .col-md-5 .btn:nth-child(1) {
+    background-color: rgb(247, 103, 51);
+    color: white;
+} */
+
+.container .section-2 .col-md-12 .row .col-md-4:nth-child(1) {
+     border-right: 1px solid grey;
+}
+
+@media all and (max-width: 1000px){
+    .container .section-2 .col-md-12 .row .col-md-4:nth-child(1) {
+        border-right: none;
+   }
+}
+
+.container .section-3 {
+    background-color: aliceblue;
+}
+
+
+.container footer {
+    background-color: rgb(209, 209, 245);
+}
+.container footer .col-md-12 .row .col-md-3 .btn-submit{
+    background-color: orangered;
+    color: white;
+}
+
+.container footer .col-md-12 .row .col-md-4{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (max-width: 1000px){
+    .container .section-7 .col-md-12 .row .col-md-10 .btn-submit{
+      width: 100%;
+    }
+   
+    .container footer .col-md-12 .row .col-md-4{
+        display: flex;
+        justify-content: start;
+    }
+}
